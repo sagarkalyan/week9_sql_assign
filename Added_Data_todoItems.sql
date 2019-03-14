@@ -1,0 +1,3 @@
+INSERT INTO todoItems ( todoItem, dateCreated, todoStatus, projectID) VALUES ('First Item project','2019-03-08','This is Item data one.','1' );
+INSERT INTO todoItems ( todoItem, dateCreated, todoStatus, projectID) VALUES ('Second Item project ','2019-03-15','This is Item data two.','2' );
+INSERT INTO todoItems ( todoItem, dateCreated, todoStatus, projectID) VALUES ('Third Item project','2019-03-08','This is Item data three.','3' );

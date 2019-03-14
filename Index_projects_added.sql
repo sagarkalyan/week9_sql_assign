@@ -1,0 +1,1 @@
+ALTER TABLE projects ADD INDEX PROJECT_INDEX(`projectName`);
