@@ -1,1 +1,1 @@
-CREATE TABLE todoItems (todoID INT AUTO_INCREMENT, todoItem VARCHAR(200) NOT NULL, dateCreated DATETIME NOT NULL, todoStatus TEXT NOT NULL, projectID INT, PRIMARY KEY (todoID), FOREIGN KEY (projectID) REFERENCES projects(projectID));
+CREATE TABLE todoItems (todoID INT AUTO_INCREMENT, todoItem VARCHAR(200) NOT NULL, dateCreated DATETIME DEFAULT NOW() NOT NULL, todoStatus TEXT NOT NULL, projectID INT, PRIMARY KEY (todoID), FOREIGN KEY (projectID) REFERENCES projects(projectID));
